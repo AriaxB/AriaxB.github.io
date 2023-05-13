@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="registro-user" class="form-register">
+        <h4>Formulario Registro</h4>
+        <input class="controls" required type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" required type="number" name="Identificación" id="Identificación" placeholder="Ingrese su documento de Identificación ">
+        <input class="controls" required type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" required type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de Nacimiento">
+        <input class="controls" required type="number" name="telefono" id="telefono" placeholder="Numero de Telefono">
+        <input class="controls"  type="password" name="correo" id="correo" placeholder="Numero de telefono 2 (opcional)">
+        <input class="controls"  type="text" name="direccion" id="direccion" placeholder="Direccion">
+        <h1>GENERO</h1>
+        <label><input type="radio" id="masculino" value="genero-mas"> masculino</label>
+        <input type="radio" id="femenino" value="genero-fem"> <label for="femenino">femenino</label>
+        <label><input type="radio" id="otro" value="genero-otro">otro</label><br><br>
+        <input class="controls"  type="" name="correo" id="correo" placeholder="comunidad etnica">
+        <label for="ca">adjunte certificado de autoreconocimiento</label><br>
+        <div class="CA"><input class"controls" type="file" id="certificado_autoreconocmiento"></div>
+        <input class="controls" required type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+       
+       
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <a href="../index.html"><button  form="registro-user" class="botons" type="submit" value="Registrar">REGISTRAR</button></a>
+        <p><a href="../iniciar-sesion/iniciar-sesion.html">¿Ya tengo Cuenta?</a></p>
+    </form> 
+</body>
+</html>
